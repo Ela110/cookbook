@@ -1,9 +1,11 @@
-/* .social-media-links {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-} */
+nav a {
+
+}
+
+#visibility-hidden {
+    visibility: hidden;
+}
+
 
 footer .links {
     display: flex;
@@ -43,4 +45,3 @@ footer .links a:nth-child(4){
 
 footer .grid text-center {
     color:$purple-800;
-}
