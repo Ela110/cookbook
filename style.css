@@ -1,12 +1,49 @@
+/* navbar */
 nav a {
-
+/* need some fonts? */
 }
-
+/* placeholder hidden in navbar - larger space between the nav links */
 #visibility-hidden {
     visibility: hidden;
 }
+/* header */
+p.descriptionRecipes {
+    font-family: 'Chewy', system-ui;
+    font-size: 2.2rem;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    letter-spacing: -1.5px;
+}
+/* main sections */
+div.recipes {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+}
+div.recipes.recipeOne {
+    background-image: url(https://www.chefkoch.de/images/crop-960x540/magazin/sites/default/files/styles/hero/public/media/image/2023-10/Teaser_Linsenartikel.jpg);
+}
+div.recipes.recipeTwo {
+    background-image: url(https://www.chefkoch.de/images/crop-960x540/magazin/sites/default/files/styles/hero/public/media/image/2022-02/hausmannskost-1200x675.jpg);
+}
+div.recipes.recipeThree {
+    background-image: url(https://www.chefkoch.de/images/crop-960x540/magazin/sites/default/files/styles/hero/public/media/image/2021-08/schnelle-kartoffelgerichte-1200_0.jpg);
+}
+div.recipes.recipeFour {
+    background-image: url(https://www.chefkoch.de/images/crop-960x540/magazin/sites/default/files/styles/hero/public/media/image/2024-01/BerlinerTeaser.jpg);
+}
+h3.recipeTitle {
+    font-family: 'Sniglet', system-ui;
+    font-size: 70px;
+    letter-spacing: -7px;
+    color: rgb(18, 18, 18, 0.8);
+    text-align: center;
+    text-transform: uppercase;
+    margin: auto 0;
+}
 
-
+/* footer */
 
 footer .links {
     display: flex;
