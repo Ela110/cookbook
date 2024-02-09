@@ -44,6 +44,7 @@ h3.recipeTitle {
 }
 
 /* footer */
+
 footer .links {
     display: flex;
     justify-content: center;
@@ -54,11 +55,11 @@ footer .links a {
     display: block;
     width: 40px;
     height: 40px;
-    margin: 1.5rem;
+    margin: 1rem;
     background: #000;
     text-align: center;
     line-height: 40px;
-    font-size: small;
+    font-size: medium;
     border-radius: 50%;
     color: #fff;
     overflow: hidden;
@@ -81,4 +82,9 @@ footer .links a:nth-child(4){
 }
 
 footer .grid text-center {
-    color:$purple-800;
+    color: $purple-800;
+}
+
+.logobottom{
+    max-width: 30px;
+}
