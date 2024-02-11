@@ -22,17 +22,17 @@
 <!-- nav start -->
     <nav class="navbar navbar-expand-md navbar-light bg-light border-bottom border-3 border-secondary pt-3">
         <div class="container-fluid">
-            <a class="navbar-brand ms-2 me-5" href="#"><img src="https://www.foodboom.de/foodboom_wortmarke_schwarz.webp" alt="foodboom logo" width="100"></a>
+            <a class="navbar-brand ms-2 me-5" href="/index.html"><img src="https://www.foodboom.de/foodboom_wortmarke_schwarz.webp" alt="foodboom logo" width="100"></a>
             <button class="navbar-toggler mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo2" aria-controls="navbarTogglerDemo2" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo2">
             <ul class="navbar-nav me-auto mb-2 mb-xl-0">
                 <li class="nav-item">
-                    <a class="nav-link active ms-2 me-2 mt-2 fw-bold border-bottom border-3 border-secondary text-end" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active ms-2 me-2 mt-2 fw-bold border-bottom border-3 border-secondary text-end" aria-current="page" href="/index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link ms-2 me-2 mt-2 fw-bold active border-bottom border-3 border-secondary text-end" href="#">Your favorites</a>
+                    <a class="nav-link ms-2 me-2 mt-2 fw-bold active border-bottom border-3 border-secondary text-end" href="/index.html">Your favorites</a>
                 </li>  
                 <li class="nav-item">
                     <a class="nav-link btn border-3 border-success rounded-pill ms-2 fw-bold bg-light text-success col-6 col-sm-4 col-md-12 mt-2" href="#" tabindex="-1" aria-disabled="true">Post your own recipe</a>
@@ -64,12 +64,14 @@
         <div class="container ">
             <section class="firstTwoRecipes">
                 <div class="row">
+                    <a href="/recipe.html" class="p-0 recipeLink">
                     <div class="col-12 d-xl-none border-bottom border-5 border-secondary recipes recipeOne pt-4">
-                        <h3 class="recipeTitle pt-2">Recipe1</h3>
-                    </div>
+                        <h3 class="recipeTitle pt-2">2Pasta</h3>
+                    </div></a>
+                    <a href="/recipe2.html" class="p-0 recipeLink">
                     <div class="col-12 d-xl-none border-bottom border-5 border-secondary recipes recipeTwo pt-4">
-                        <h3 class="recipeTitle pt-2">Recipe2</h3>
-                    </div>
+                        <h3 class="recipeTitle pt-4" id="recipeTitle2">Burger gratin</h3>
+                    </div></a>
                 </div>
             </section>
         </div>
@@ -91,20 +93,20 @@
             <section class="firstTwoRecipesXL">
                 <div class="row justify-content-around">
                     <div class="col-12 d-none d-xl-block col-xl-5 recipes recipeOne mt-5 mb-5 pt-4">
-                        <h3 class="recipeTitleXL pt-2">Responsive1</h3>
+                        <h3 class="recipeTitleXL pt-2"><a href="/recipe.html" class="recipeLink">2Pasta</a></h3>
                     </div>
                     <div class="col-12 d-none d-xl-block col-xl-5 recipes recipeTwo mt-5 mb-5 pt-4">
-                        <h3 class="recipeTitleXL pt-2">Responsive2</h3>
+                        <h3 class="recipeTitleXL pt-3" id="recipeTitleXL2"><a href="/recipe2.html" class="recipeLink">Burger Gratin</a></h3>
                     </div>
                 </div>
             </section>
             <section class="lastTwoRecipesXL">
                 <div class="row justify-content-around">
                     <div class="col-12 d-none d-xl-block col-xl-5 recipes recipeThree mt-5 mb-5 pt-4">
-                        <h3 class="recipeTitleXL pt-2">Responsive3</h3>
+                        <h3 class="recipeTitleXL pt-2">Dummy1</h3>
                     </div>
                     <div class="col-12 d-none d-xl-block col-xl-5 recipes recipeFour mt-5 mb-5 pt-4">
-                        <h3 class="recipeTitleXL pt-2">Responsive4</h3>
+                        <h3 class="recipeTitleXL pt-2">Dummy2</h3>
                     </div>
                 </div>
             </section>
@@ -143,7 +145,7 @@
             </div>
             <!-- Copyright -->
             <div> © 2023 Copyright:
-                <a class="text-white" href="">Cookbook.com</a></div>
+                <a class="text-white" href="/index.html">Cookbook.com</a></div>
                 <!-- Copyright -->
         </div>
   </footer>
