@@ -17,16 +17,24 @@ p.descriptionRecipes {
     line-height: 30px;
 }
 /* main sections */
+a.recipeLink{
+    text-decoration: none;
+    color: rgb(18, 18, 18, 0.8);
+}
+a.recipeLink:hover{
+    text-decoration: none;
+    color: #198754;
+}
 div.recipes {
     background-repeat: no-repeat;
     background-size: cover;
     height: 150px;
 }
 div.recipes.recipeOne {
-    background-image: url(https://www.chefkoch.de/images/crop-960x540/magazin/sites/default/files/styles/hero/public/media/image/2023-10/Teaser_Linsenartikel.jpg);
+    background-image: url(/www.foodboom.de-1707249190849/pasta-mit-tomaten-sahnesauce.jpeg);
 }
 div.recipes.recipeTwo {
-    background-image: url(https://www.chefkoch.de/images/crop-960x540/magazin/sites/default/files/styles/hero/public/media/image/2022-02/hausmannskost-1200x675.jpg);
+    background-image: url(/www.foodboom.de-1707249190849/einfacher-cheeseburger-auflauf.jpeg);
 }
 div.recipes.recipeThree {
     background-image: url(https://www.chefkoch.de/images/crop-960x540/magazin/sites/default/files/styles/hero/public/media/image/2021-08/schnelle-kartoffelgerichte-1200_0.jpg);
@@ -42,6 +50,9 @@ h3.recipeTitle {
     text-align: center;
     text-transform: uppercase;
     margin: auto 0;
+}
+#recipeTitle2 {
+    font-size: 50px;
 }
 h3.recipeTitleXL {
     font-family: 'Sniglet', system-ui;
@@ -60,6 +71,9 @@ h3.recipeTitleXL:hover {
     text-align: center;
     text-transform: uppercase;
     margin: auto 0;
+}
+#recipeTitleXL2 {
+    font-size: 75px;
 }
 
 /* footer */
