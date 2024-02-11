@@ -46,7 +46,6 @@
         </div>
     </nav>
 <!-- nav end -->
-
 <!-- header start -->
     <header>
         <div class="container-fluid border-bottom border-5 border-secondary">
@@ -61,13 +60,14 @@
 <!-- header end -->
 <!-- main start -->
     <main>
+<!-- main mobile -->
         <div class="container ">
             <section class="firstTwoRecipes">
                 <div class="row">
-                    <div class="col-12 border-bottom border-5 border-secondary recipes recipeOne pt-4">
+                    <div class="col-12 d-xl-none border-bottom border-5 border-secondary recipes recipeOne pt-4">
                         <h3 class="recipeTitle pt-2">Recipe1</h3>
                     </div>
-                    <div class="col-12 border-bottom border-5 border-secondary recipes recipeTwo pt-4">
+                    <div class="col-12 d-xl-none border-bottom border-5 border-secondary recipes recipeTwo pt-4">
                         <h3 class="recipeTitle pt-2">Recipe2</h3>
                     </div>
                 </div>
@@ -76,16 +76,51 @@
         <div class="container">
             <section class="lastTwoRecipes">
                 <div class="row">
-                    <div class="col-12 border-bottom border-5 border-secondary recipes recipeThree pt-4">
+                    <div class="col-12 d-xl-none border-bottom border-5 border-secondary recipes recipeThree pt-4">
                         <h3 class="recipeTitle pt-2">Dummy1</h3>
                     </div>
-                    <div class="col-12 border-bottom border-5 border-secondary recipes recipeFour pt-4">
+                    <div class="col-12 d-xl-none border-bottom border-5 border-secondary recipes recipeFour pt-4">
                         <h3 class="recipeTitle pt-2">Dummy2</h3>
                     </div>
                 </div>
             </section>
         </div>
+<!-- main mobile end -->
+<!-- main desktop -->
+        <div class="container-fluid">
+            <section class="firstTwoRecipesXL">
+                <div class="row justify-content-around">
+                    <div class="col-12 d-none d-xl-block col-xl-5 recipes recipeOne mt-5 mb-5 pt-4">
+                        <h3 class="recipeTitleXL pt-2">Responsive1</h3>
+                    </div>
+                    <div class="col-12 d-none d-xl-block col-xl-5 recipes recipeTwo mt-5 mb-5 pt-4">
+                        <h3 class="recipeTitleXL pt-2">Responsive2</h3>
+                    </div>
+                </div>
+            </section>
+            <section class="lastTwoRecipesXL">
+                <div class="row justify-content-around">
+                    <div class="col-12 d-none d-xl-block col-xl-5 recipes recipeThree mt-5 mb-5 pt-4">
+                        <h3 class="recipeTitleXL pt-2">Responsive3</h3>
+                    </div>
+                    <div class="col-12 d-none d-xl-block col-xl-5 recipes recipeFour mt-5 mb-5 pt-4">
+                        <h3 class="recipeTitleXL pt-2">Responsive4</h3>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- placeholder before footer start -->
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="col-12 d-none d-xl-block mb-5">
+                    <div class="placeholder"></div>
+                </div>
+            </div>
+        </div>
+        <!-- placeholder before footer end -->
+<!-- main desktop end -->
     </main> 
+<!-- main end -->
 <!-- footer start -->
     <footer class="p-4 bg-secondary text-center text-black ">
     <h6>FOLLOW US</h6>
