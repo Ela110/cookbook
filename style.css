@@ -31,10 +31,10 @@ div.recipes {
     height: 150px;
 }
 div.recipes.recipeOne {
-    background-image: url(/www.foodboom.de-1707249190849/pasta-mit-tomaten-sahnesauce.jpeg);
+    background-image: url("./www.foodboom.de-1707249190849/pasta-mit-tomaten-sahnesauce.jpeg");
 }
 div.recipes.recipeTwo {
-    background-image: url(/www.foodboom.de-1707249190849/einfacher-cheeseburger-auflauf.jpeg);
+    background-image: url(./www.foodboom.de-1707249190849/einfacher-cheeseburger-auflauf.jpeg);
 }
 div.recipes.recipeThree {
     background-image: url(https://www.chefkoch.de/images/crop-960x540/magazin/sites/default/files/styles/hero/public/media/image/2021-08/schnelle-kartoffelgerichte-1200_0.jpg);

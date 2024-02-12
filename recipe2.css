@@ -1,0 +1,43 @@
+footer .links {
+    display: flex;
+    justify-content: center;
+}
+
+footer .links a {
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 1rem;
+    background: #000;
+    text-align: center;
+    line-height: 40px;
+    font-size: medium;
+    border-radius: 50%;
+    color: #fff;
+    overflow: hidden;
+}
+
+.links a:nth-child(1){
+    background: #3B5998;
+}
+
+footer .links a:nth-child(2){
+    background: #d6249f; background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+
+footer .links a:nth-child(3){
+    background: #bb0000;
+}
+
+footer .links a:nth-child(4){
+    background: #E60023;
+}
+
+footer .grid text-center {
+    color: $purple-800;
+}
+
+.logobottom{
+    max-width: 30px;
+}
